@@ -4,5 +4,6 @@ This is the website of our academic research group at the International Center f
 
 Go to *aboutwebsite.md*  to learn how to copy and modidy this page for your purpose. 
 
+https://icarda-git.github.io/ICARDA-Bioinformatics/
 
 Copyright © 2020 ICARDA-Bioinformatics. All Rights Reserved.
