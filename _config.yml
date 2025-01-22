@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Allan Lab
-email: your-email@domain.com
+title: ICARDA Bioinformatics
+email: A.Alsamman@cgiar.org
 description: > # this means to ignore newlines until "baseurl:"
-  Website of the AllanLab.
-baseurl: ""
-url: ""
+  Website of the Allan Lab.
+baseurl: "/ICARDA-Bioinformatics" # the subpath of your site, e.g. /blog
+url: "https://icarda-git.github.io" # the base hostname & protocol for your site
 
 include:
   - .htaccess
@@ -26,8 +26,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 
 # Markdown Processing
 kramdown:
