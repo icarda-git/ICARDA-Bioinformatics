@@ -1,0 +1,34 @@
+- name: Zakaria Kehel
+  photo: ZKehel.jpg
+  info: Research Team Leader - Genetic Resources, conservation, characterization, and use (GRS) and Morocco Interim Country Manager Genetic Innovation - Genetic In
+  email: z.kehel@cgiar.org
+  number_educ: 1
+  education1: Ph.D. from the School of Agricultural and Forestry Engineering at the University of Córdoba in Spain.
+
+
+- name: Khaled Al-Sham'aa
+  photo: k.el-shamaa.png
+  info: Research Database Manager and Senior Analyst
+  email: k.el-shamaa@cgiar.org
+  number_educ: 3
+  education1: B.Sc. in Electrical & Electronics Engineering-Computer Engineering, Aleppo University
+  education2: Diploma in Automation & Industrial Electronics, Aleppo University (thesis on neural networks)
+  education3: Diploma in Computer Engineering, Aleppo University (thesis on expert systems)
+
+- name: Alsamman M. Alsamman
+  photo: aalsamman.png
+  info: Bioinformatician, started January 2021
+  email: aalsamman100@gmail.com
+  number_educ: 3
+  education1: PhD in Genetics, Faculty of Agriculture, Ain Shams University
+  education2: MSc in Genetics, Faculty of Agriculture, Cairo University
+  education3: BSc in Biotechnology, Bioinformatics Minor, Faculty of Agriculture, Al-Azhar University
+
+
+- name: Tamara Ortiz
+  photo: tamara.png
+  info: Bioinformatician, started February 2024
+  email: tamara.ortizru@gmail.com
+  number_educ: 2
+  education1: MS in Bioinformatics, NYU Tandon School of Engineering (2025 - 2026)
+  education2: BE in Bioengineering, UTEC - Universidad de Ingeniería y Tecnología (2018 - 2023)

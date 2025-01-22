@@ -1,0 +1,12 @@
+- title: "AlignStatPlot: An R package and online tool for robust sequence alignment statistics and innovative visualization of big data"
+  image: alignstatplot.png
+  description: Multiple sequence alignment (MSA) is essential for understanding genetic variations controlling phenotypic traits in all living organisms. The post-analysis of MSA results is a difficult step for researchers who do not have programming skills, especially those working with large scale data and looking for potential variations or variable sample groups. AlignStatPlot provides a robust ability to handle and visualize diversity data, offering both traditional and cutting-edge analyses on sequencing data and generating new visualization methods for MSA results.
+  authors: Alsamman M. Alsamman, Achraf El Allali, Morad M. Mokhtar, Khaled Al-Sham’aa, Ahmed E. Nassar, Khaled H. Mousa, Zakaria Kehel
+  link:
+    url: https://doi.org/10.1371/journal.pone.0291204
+    display: PLOS ONE 0291204
+  highlight: 1
+   
+  # news1: See [News and Views](https://www.nature.com/articles/s41563-023-01552-x) by Yu He.
+
+

@@ -1,0 +1,55 @@
+- title: "QBMS"
+  image: QBMS.png
+  description: This R package assists breeders in linking data systems with their analytic pipelines, a crucial step in digitizing breeding processes. It supports querying and retrieving phenotypic and genotypic data from systems like EBS, BMS, BreedBase, and GIGWA (using BrAPI calls). Extra helper functions support environmental data sources, including TerraClimate and FAO HWSDv2 soil database.
+  authors: Khaled Al-Shamaa, Mariano Omar CRIMI, Zakaria Kehel, Johan Aparicio
+  link:
+    url: https://github.com/icarda-git/QBMS
+    display: QBMS on GitHub
+  highlight: 1
+  
+- title: "HaploTraitR"
+  image: HaploTraitR.png
+  description: This project performs haplotype analysis and visualizes phenotypic data across multiple genetic/haplotype combinations to understand the association between haplotypes (SNPs linked by LD) and variation in traits.
+  authors: Alsamman AM, Othmane Bohala, Khaled Helmy, Tamara Ortizruiz, Doaa Korkar, Zakaria Kehel
+  link:
+    url: https://github.com/icarda-git/HaploTraitR
+    display: HaploTraitR on GitHub
+  highlight: 1
+
+
+- title: "SSR Detector"
+  image: SSR.png
+  description: Short script written in Perl using regular expression techniques to detect SSR in sequences provided in FASTA file format and save the output in a tab-delimited text file. This code was developed for the study of Development of 1000 Microsatellite Markers across the Date Palm (Phoenix dactylifera L.) Genome, which won the Khalifa International Date Palm Award for the most Distinguished Research/Studies in 2012.
+  authors: Khaled Al-Shamaa, Zakaria Kehel
+  link:
+    url: https://github.com/icarda-git/SSR
+    display: SSR Detector on GitHub
+  highlight: 1
+
+
+- title: "ChickpeaOmicsR"
+  image: ChickpeaOmicsR.png
+  description: ChickpeaOmicsR is an R package designed to facilitate multi-omics data analysis for chickpea research. The package offers tools to analyze gene expression, protein interaction networks, and genome-wide association studies (GWAS), helping chickpea breeders and researchers explore key biological processes such as flowering, salinity response, and stress adaptation.
+  authors: Alsamman M. Alsamman, Khaled H. Mousa, Anas M. Saedwi, Sandy Khaled, Achraf El Allali, Zakaria Kehel
+  link:
+    url: https://github.com/icarda-git/ChickpeaOmicsR
+    display: ChickpeaOmicsR on GitHub
+  highlight: 1
+
+- title: "SciLibra"
+  image: SciLibra.png
+  description: SciLibra is a free and open-source software for managing scientific articles. It provides a user interface for organizing and viewing scientific articles, including features for importing articles from BibTeX files, clustering articles by different categories, and viewing article details.
+  authors: Alsamman M. Alsamman
+  link:
+    url: https://github.com/icarda-git/SciLibra
+    display: SciLibra on GitHub
+  highlight: 1
+
+- title: "AlignStatPlot"
+  image: alignstatplot.png
+  description: The goal of alignstatplot is to provide a simple tool for performing sequence alignment, descriptive analysis, and innovative visualization of the generated results. alignstatplot provides new analyses that may aid researchers in identifying genic regions associated with gene variability and can be combined with other analysis tools for studying diversity.
+  authors: Alsamman M. Alsamman, Achraf El Allali, Morad M. Mokhtar, Khaled Al-Sham’aa, Ahmed E. Nassar, Khaled H. Mousa, Zakaria Kehel
+  link:
+    url: https://github.com/icarda-git/alignstatplot
+    display: alignstatplot on GitHub
+  highlight: 1
