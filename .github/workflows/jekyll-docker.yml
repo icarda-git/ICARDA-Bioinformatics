@@ -1,32 +1,20 @@
-name: GitHub Pages
+name: Jekyll site CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-
-    - name: Set up Jekyll
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: '3.1'
-
-    - name: Build and Deploy
+    - uses: actions/checkout@v4
+    - name: Build the site in the jekyll/builder container
       run: |
-        gem install bundler
-        bundle install
-        bundle exec jekyll build
-        bundle exec jekyll serve
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
